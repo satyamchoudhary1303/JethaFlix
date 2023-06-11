@@ -148,7 +148,7 @@ export default function Home() {
                 <Video episode={'753'} episodetype={'D&T Construction'} episodecontent={'Sundarlal grabs the contract as weel as Jethalal`s tension increased'} numsuggest={'85'}></Video>
                 <Video episode={'1758'} episodetype={'Society Renewation'} episodecontent={'This time new tension with renewation but fun also. Let`s see how they get their houses'} numsuggest={51}></Video>
             </div>
-            {/* <div id="footer">Copyright © 2023 JethaFlix.com | All Rights Reserved</div>  */}
+            <div id="footer">Copyright © 2023 JethaFlix.com | All Rights Reserved</div> 
         </div>
     </div>
   )
