@@ -457,6 +457,9 @@ body{
     #content{
         right: 50px;
     }
+    #explore{
+        left: 50px;
+    }
     #video{
         position: static;
         width: 840px;
