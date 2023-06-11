@@ -123,7 +123,7 @@ body{
 
 #morelist{
     justify-self: center;
-    margin: 27px 0px;
+    margin: 10px 0px;
     padding: 3px 0px 0px 3px;
     background-color: rgba(0, 0, 0, 0.9);
     border: rgba(255, 255, 255, 0.5) 1px solid;
@@ -462,20 +462,20 @@ body{
     }
     #video{
         position: static;
-        width: 840px;
+        width: 700px;
     }
     #episode{
-        width: 840px;
-        height: 472.5px;
+        width: 700px;
+        height: 393.75px;
     }
     #play #containerBox{
-      position: static;
-      width: 840px;
-      margin: 0px;
-      padding: 10px;
-      height: auto;
-      border: none;
-      display: flex;
-      flex-direction: row;
+        position: static;
+        width: 700px;
+        margin: 0px;
+        padding: 10px;
+        height: auto;
+        border: none;
+        display: flex;
+        flex-direction: row;
     }
 }
