@@ -1,0 +1,490 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(0,0,0,0.9);
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(64, 64, 64,0.5);
+}
+
+/* Logo */
+
+#logo{
+    margin: 20px;
+    margin-right: 40px;
+    justify-self: flex-start;
+}
+
+#logo img{
+    height: 50px;
+}
+
+/* NavBar */
+
+#navbar{
+    position: sticky;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    top: 0px;
+    z-index: 2; 
+}
+
+#navbar::before{
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.homelink{
+    color: #a3c9e0;
+}
+
+.homelink:hover{
+    color: #2ea9de;
+    text-decoration: none;
+}
+
+#navlist{
+    margin: auto 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#navlistitems{
+    list-style: none;
+    margin: 10px;
+    margin-left: 0px;
+    margin-right: 30px;
+}
+
+.navlink{
+    display: flex;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    color: #a3c9e0;
+    outline: none;
+}
+
+.navlink:hover{
+    color: #2ea9de;
+}
+
+.navlink:focus{
+    outline: none;
+    color: #2ea9de;
+}
+
+.morelink{
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    color: #a3c9e0;
+}
+
+.morelink:hover{
+    color: #2ea9de;
+}
+
+#more{
+    margin-left: 10px;
+    margin-top: 4px;
+    transform: scale(1.2);
+}
+
+#morelist{
+    justify-self: center;
+    margin: 27px 0px;
+    padding: 3px 0px 0px 3px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border: rgba(255, 255, 255, 0.5) 1px solid;
+    border-radius: 5px;
+    max-height: 145px;
+    overflow-y: auto;
+    min-width: 90px;
+}
+
+#morelistitems{
+    padding: 5px;
+    border-bottom: rgba(255, 255, 255, 0.1) 1px solid;
+    list-style: none;
+}
+
+#morelistitems a{
+    text-decoration: none;
+}
+
+#navigate{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+#search{
+    margin: auto 0;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px transparent solid;
+    outline: none;
+    background-color: #a3c9e0;
+    cursor: text;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-right: 10px;
+    padding: 8px;
+}
+
+#search::placeholder{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+#search:focus{
+    font-family: 'Times New Roman', Times, serif;
+    width: 250px;
+}
+
+#sicon{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #a3c9e0;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 10px 0px 10px 15px;
+}
+
+/* Explore Section */
+
+#home{
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    background-image: var(--background-image);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 0.5s ease-in-out;
+}
+
+#left{
+    position: absolute;
+    align-self: first baseline;
+    display: flex;
+    top: 0px;
+    height: 100%;
+    cursor: pointer;
+}
+
+#right{
+    position: absolute;
+    align-self: last baseline;
+    display: flex;
+    top:0px;
+    height: 100%;
+    cursor: pointer;
+}
+
+#icon{
+    background-color: black;
+    align-self: center;
+    padding: 10px;
+    color:#a3c9e0;
+    opacity: 0.7;
+}
+
+#left #icon{
+    padding-left: 20px;
+    margin-right: 70px;
+}
+
+#right #icon{
+    padding-right: 20px;
+    margin-left: 70px;
+}
+
+#right:hover{
+    background: linear-gradient(to right,transparent 0%,rgb(0,0,0,0.6));
+}
+
+#left:hover{
+    background: linear-gradient(to left,transparent 0%,rgb(0,0,0,0.6));
+}
+
+#right:hover #icon,#left:hover #icon{
+    color: #2ea9de;
+    transform: scale(1.5);
+    background-color: transparent;
+}
+
+#explore{
+    position: absolute;
+    bottom: 20px;
+    left: 110px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    color: #a3c9e0;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 15px 40px;
+    z-index: 1;
+}
+
+#explore:hover{
+    color: #2ea9de;
+}
+
+#explore:focus{
+    outline: none;
+}
+
+#explore #glassicon{
+    transform: rotateX(30deg) rotateZ(-30deg) scaleY(-1);
+    margin-right: 20px;
+}
+
+#explore:hover #glassicon{
+    transform: rotateX(30deg) rotateZ(-30deg);
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+    position: absolute;
+    bottom: 20px;
+    right: 110px;
+    text-align: right;
+    height: auto;
+}
+
+#content #episodehome{
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #a3c9e0;
+}
+
+#content #about{
+    font-size: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #a3c9e0;
+    margin: 5px 0;
+}
+
+#content #watch{
+    align-self: flex-end;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #a3c9e0;
+    border-radius: 10px;
+    width: 220px;
+    text-align: center;
+    padding: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+#content #watch:hover{
+    color: #2ea9de;
+}
+
+#content #watchicon{
+    margin-right: 20px;
+}
+
+#base{
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    z-index: -1;
+    background: linear-gradient(transparent 1%,black);
+}
+
+/* Home Content Section */
+#homecontent{
+    position: absolute;
+    top:100%;
+    width: 100%;
+}
+
+#homecontent h1{
+    color: #a3c9e0;
+    font-size: 2rem;
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+#containerBox{
+    display: flex;
+    margin-left: 40px;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#container{
+    margin: 10px;
+    text-decoration: none;
+    width: 202px;
+    height: 230px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+#home #container:hover{
+    transform: scale(1.05);
+}
+
+#episodetype{
+    font-size: 1.2rem;
+    color: #2ea9de;
+    margin: 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#episodenumber{
+    font-size: 1.5rem;
+    color: #2ea9de;
+    margin: 10px;
+    margin-top: 0px;
+}
+
+#episodecontent{
+    font-size: 0.9rem;
+    color: #a3c9e0;
+    margin: 0 10px;
+    height: 68px;
+    overflow: hidden;
+}
+
+#episodeImg{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#video{
+    position: absolute;
+    display: flex;
+    top: 80px;
+    left: 0;
+    right: 250px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    bottom: 0;
+}
+
+#playsearch #video{
+    right: 0;
+}
+
+#episode{
+    width: 100%;
+    height: 100%;
+    max-width: 840px;
+}
+
+#play #containerBox{
+  position: fixed;
+  flex-direction: column;
+  background-color: black;
+  align-items: center;
+  right: 0;
+  top: 80px;
+  bottom: 0;
+  width: 250px;
+  overflow-y: scroll;
+}
+
+#play #container{
+    height: 165px;
+}
+
+#footer{
+    height: 20px;
+    display: flex;
+    color: #a3c9e0;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Media */
+
+@media screen and (max-width: 840px) {
+    #navbar{
+        width: 840px;
+    }
+    #home{
+        width: 840px;
+    }
+    #left #icon{
+        padding-left: 15px;
+        margin-right: 20px;
+    }
+    #right #icon{
+        padding-right: 15px;
+        margin-left: 20px;
+    }
+    #explore{
+        left: 50px;
+    }
+    #content{
+        right: 50px;
+    }
+    #video{
+        position: static;
+        width: 840px;
+    }
+    #episode{
+        width: 840px;
+        height: 472.5px;
+    }
+    #play #containerBox{
+      position: static;
+      width: 840px;
+      margin: 0px;
+      padding: 10px;
+      height: auto;
+      border: none;
+      display: flex;
+      flex-direction: row;
+    }
+}
