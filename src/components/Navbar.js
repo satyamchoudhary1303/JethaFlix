@@ -89,7 +89,6 @@ export default function Navbar(){
             </ul>
 
             <div id="navigate">
-                <div id="sicon"><i class="fa fa-search"></i></div>
                 <input spellCheck="false" type="text" id="search" placeholder="Search" value={searchQuery} onChange={(event) => setSearchQuery(event.target.value)} onKeyPress={handleKeyPress}/>
             </div>
         </nav>
