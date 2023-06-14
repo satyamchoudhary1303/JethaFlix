@@ -60,7 +60,9 @@ export default function Home() {
             <div id="containerBox">
                 <Video episode={'7'} episodetype={'Bapuji`s arrival'} episodecontent={'Bapuji, new in Mumbai, goes missing now what?'} numsuggest={'2'}></Video>
                 <Video episode={'14'} episodetype={'Jethalal kidnapped'} episodecontent={'Jethala abducted by bunch of thugs. What awaits Jethalal`s fate now?'} numsuggest={'2'}></Video>
+                <Video episode={'55'} episodetype={'Sundar`s Scheme'} episodecontent={'Sundar brings a scheme for Gokuldham members to double their money but promptly disappears'} numsuggest={'7'}></Video>
                 <Video episode={'90'} episodetype={'Thin Elephant'} episodecontent={'Dr. Hathi stucks in tempo after loosing or gaining 30 kg weight?'} numsuggest={'3'}></Video>
+                <Video episode={'96'} episodetype={'Jethalal Fitness'} episodecontent={'Babita advises Jethalal to do a proper diet and exercise along with her in the early morning.'} numsuggest={'5'}></Video>
                 <Video episode={'104'} episodetype={'Police Abduct Bapuji'} episodecontent={'Police abduct Bapuji mistaking him to be a theif in Adarsh Nagar Colony'} numsuggest={'3'}></Video>
                 <Video episode={'122'} episodetype={'Chaggan and Maggan'} episodecontent={'Jethala make a big mistake by giving Chaggan`s money to Maggan, let`s fight Chaggan'} numsuggest={'4'}></Video>
                 <Video episode={'148'} episodetype={'Kitty Party'} episodecontent={'Mahila Mandali plans kitty party, but party results in fight between Daya & Madhavi'} numsuggest={'5'}></Video>
@@ -69,13 +71,13 @@ export default function Home() {
             </div>
             <h1>All Time Favorite</h1>
             <div id="containerBox">
+                <Video episode={'115'} episodetype={'Crazy toothpaste'} episodecontent={'Bhide is struggling with the whistle stuck in his throat.'} numsuggest={'3'}></Video>
                 <Video episode={'153'} episodetype={'Robbery in Gokuldham'} episodecontent={'Jethalal has 25 lakhs,but robbery incidents tooks in gokuldham, society on alert'} numsuggest={'11'}></Video>
                 <Video episode={'190'} episodetype={'Babitaji`s Bithday'} episodecontent={'Its Babita ji`s bithday but Iyer Idli has some different plans for Babita`s party'} numsuggest={'6'}></Video>
                 <Video episode={'300'} episodetype={'Gada`s to Ahmedabad'} episodecontent={'Gada`s are off to Ahmedabaad for Makarsankranti to meet Jeevdayaben'} numsuggest={4}></Video>
                 <Video episode={'334'} episodetype={'Tempo Stucked'} episodecontent={'Gokuldham`s enterance is blocked due to tempo'} numsuggest={'7'}></Video>
                 <Video episode={'382'} episodetype={'Water Cut'} episodecontent={'Sundar comes in Gokuldham with guests during water cut, Water Tanker called'} numsuggest={'7'}></Video>
                 <Video episode={'410'} episodetype={'Jetha`s new Hairstyle'} episodecontent={'Sundar sent a shampoo which make Jethalal looks funny due to bad hairs shape'} numsuggest={'3'}></Video>
-                <Video episode={'578'} episodetype={'Atmaram Millionanire'} episodecontent={'Bhide get`s a fraud e-mail offering 1cr, get stucked in trap and invests his savings'} numsuggest={'10'}></Video>
                 <Video episode={'1089'} episodetype={'New member, Sheru'} episodecontent={'Will society accepts Sheru. Is this a new troublemaker for Jethalal'} numsuggest={'23'}></Video>
             </div>
             <h1>Must Watch</h1>
@@ -91,7 +93,9 @@ export default function Home() {
             </div>
             <h1>Best Villains</h1>
             <div id="containerBox">
+                <Video episode={'30'} episodetype={'Gobachari in the house'} episodecontent={'All men of the society meet Gobachari who brainwashes them against their wives'} numsuggest={'5'}></Video>
                 <Video episode={'46'} episodetype={'Sheikh`s offer'} episodecontent={'Jethalal stuck`s in Sheikh`s offer to sacrifise his kidney for Sheikh`s Brother'} numsuggest={'4'}></Video>
+                <Video episode={'66'} episodetype={'Jethalal`s Affair'} episodecontent={'Sweety comes and makes everyone believe that Jethalal has an affair with her.'} numsuggest={'4'}></Video>
                 <Video episode={'140'} episodetype={'Meenakshi Washing Powder'} episodecontent={'Irritated from hearing of Meenakshi, Takark scolded Meenakshi, a Don`s wife'} numsuggest={'3'}></Video>
                 <Video episode={'413'} episodetype={'Bhootni in Gokuldham'} episodecontent={'Jethalal encounters a scary lady, later comes to society, everyone is scared'} numsuggest={'13'}></Video>
                 <Video episode={'461'} episodetype={'Iyer Babita`s Anniversary'} episodecontent={'Iyer plans a surprise for Babita on their Anniversary, takes Purush Mandali to Jail'} numsuggest={'11'}></Video>

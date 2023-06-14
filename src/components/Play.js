@@ -37,11 +37,10 @@ export default function Play(props) {
     <div id="play">
         <div id='video'>
           <iframe id="episode" src={`https://www.youtube.com/embed/${video}`} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-          {/* <iframe id="episode" src={`https://www.youtube.com/embed/gN3LBlDbUjs`} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> */}
         </div>
         <div id='containerBox'>
           {Array.from({ length: numsuggest }, (_, index) => (
-            <Suggest num={numfir + index} numfirst={numfirst} numsuggest={numsuggest}/>
+            <Suggest num={numfir + index} numfirst={numfirst} numsuggest={numsuggest} isActive={numfir + index === parseInt(num, 10)}/>
           ))}
         </div>
     </div>
