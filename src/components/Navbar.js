@@ -71,19 +71,18 @@ export default function Navbar(){
                         <li id="morelistitems"><Navlink episodetype={'Episode 01-100'} episode={'1'} numsuggest={'100'}></Navlink></li>
                         <li id="morelistitems"><Navlink episodetype={'Episode 101-200'} episode={'101'} numsuggest={'100'}></Navlink></li>
                         <li id="morelistitems"><Navlink episodetype={'Episode 201-300'} episode={'201'} numsuggest={'100'}></Navlink></li>
-                        <li id="morelistitems"><Navlink episodetype={'Episode 201-300'} episode={'301'} numsuggest={'100'}></Navlink></li>
-                        <li id="morelistitems"><Navlink episodetype={'Episode 301-400'} episode={'401'} numsuggest={'100'}></Navlink></li>
-                        <li id="morelistitems"><Navlink episodetype={'Episode 401-500'} episode={'501'} numsuggest={'100'}></Navlink></li>
-                        <li id="morelistitems"><Navlink episodetype={'Episode 501-600'} episode={'601'} numsuggest={'100'}></Navlink></li>
-                        <li id="morelistitems"><Navlink episodetype={'Episode 601-700'} episode={'701'} numsuggest={'100'}></Navlink></li>
-                        <li id="morelistitems"><Navlink episodetype={'Episode 701-800'} episode={'801'} numsuggest={'100'}></Navlink></li>
-                        <li id="morelistitems"><Navlink episodetype={'Episode 801-900'} episode={'901'} numsuggest={'100'}></Navlink></li>
-                        <li id="morelistitems"><Navlink episodetype={'Episode 901-1000'} episode={'1001'} numsuggest={'100'}></Navlink></li>
-                        <li id="morelistitems"><Navlink episodetype={'Episode 1001-1100'} episode={'1101'} numsuggest={'100'}></Navlink></li>
-                        <li id="morelistitems"><Navlink episodetype={'Episode 1101-1200'} episode={'1201'} numsuggest={'100'}></Navlink></li>
-                        <li id="morelistitems"><Navlink episodetype={'Episode 1201-1300'} episode={'1301'} numsuggest={'100'}></Navlink></li>
-                        <li id="morelistitems"><Navlink episodetype={'Episode 1301-1400'} episode={'1401'} numsuggest={'100'}></Navlink></li>
-                        <li id="morelistitems"><Navlink episodetype={'Episode 1401-1500'} episode={'100'} numsuggest={'100'}></Navlink></li>
+                        <li id="morelistitems"><Navlink episodetype={'Episode 301-400'} episode={'301'} numsuggest={'100'}></Navlink></li>
+                        <li id="morelistitems"><Navlink episodetype={'Episode 401-500'} episode={'401'} numsuggest={'100'}></Navlink></li>
+                        <li id="morelistitems"><Navlink episodetype={'Episode 501-600'} episode={'501'} numsuggest={'100'}></Navlink></li>
+                        <li id="morelistitems"><Navlink episodetype={'Episode 601-700'} episode={'601'} numsuggest={'100'}></Navlink></li>
+                        <li id="morelistitems"><Navlink episodetype={'Episode 701-800'} episode={'701'} numsuggest={'100'}></Navlink></li>
+                        <li id="morelistitems"><Navlink episodetype={'Episode 801-900'} episode={'801'} numsuggest={'100'}></Navlink></li>
+                        <li id="morelistitems"><Navlink episodetype={'Episode 901-1000'} episode={'901'} numsuggest={'100'}></Navlink></li>
+                        <li id="morelistitems"><Navlink episodetype={'Episode 1001-1100'} episode={'1001'} numsuggest={'100'}></Navlink></li>
+                        <li id="morelistitems"><Navlink episodetype={'Episode 1101-1200'} episode={'1101'} numsuggest={'100'}></Navlink></li>
+                        <li id="morelistitems"><Navlink episodetype={'Episode 1201-1300'} episode={'1201'} numsuggest={'100'}></Navlink></li>
+                        <li id="morelistitems"><Navlink episodetype={'Episode 1301-1400'} episode={'1301'} numsuggest={'100'}></Navlink></li>
+                        <li id="morelistitems"><Navlink episodetype={'Episode 1401-1500'} episode={'1401'} numsuggest={'100'}></Navlink></li>
                     </div>
                 </li>
             </ul>
