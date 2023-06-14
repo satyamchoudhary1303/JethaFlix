@@ -36,7 +36,7 @@ export default function Play(props) {
   return (
     <div id="play">
         <div id='video'>
-          <iframe id="episode" src={`https://www.youtube.com/embed/${video}`} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+          <iframe id="episode" src={`https://www.youtube.com/embed/${video}?autoplay=1`} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
         </div>
         <div id='containerBox'>
           {Array.from({ length: numsuggest }, (_, index) => (
