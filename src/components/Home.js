@@ -6,6 +6,7 @@ import back2 from '../images/back2.jpg'
 import back3 from '../images/back3.jpg'
 import back4 from '../images/back4.jpg'
 import back5 from '../images/back5.jpg'
+import { Link } from 'react-router-dom';
 
 export default function Home() {
     const best = useRef(null);
@@ -152,7 +153,15 @@ export default function Home() {
                 <Video episode={'753'} episodetype={'D&T Construction'} episodecontent={'Sundarlal grabs the contract as weel as Jethalal`s tension increased'} numsuggest={'85'}></Video>
                 <Video episode={'1758'} episodetype={'Society Renewation'} episodecontent={'This time new tension with renewation but fun also. Let`s see how they get their houses'} numsuggest={51}></Video>
             </div>
-            <div id="footer">Copyright © 2023 JethaFlix.com | All Rights Reserved</div> 
+            <div id="footer">
+                <div>Copyright © 2023 JethaFlix.com | All Rights Reserved</div>
+                <div>
+                    <a href='https://github.com/satyamchoudhary1303' target='blank'><i class="fa-brands fa-github"></i></a>
+                    <a href='https://www.linkedin.com/in/satyam-choudhary-37b669210/' target='blank'><i class="fa-brands fa-linkedin"></i></a>
+                    <a href='https://www.instagram.com/_satyam.13/' target='blank'><i class="fa-brands fa-instagram"></i></a>
+                    <a href='https://www.facebook.com/lokendra.choudhary.9083' target='blank'><i class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div> 
         </div>
     </div>
   )
