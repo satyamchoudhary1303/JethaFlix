@@ -6,7 +6,6 @@ import back2 from '../images/back2.jpg'
 import back3 from '../images/back3.jpg'
 import back4 from '../images/back4.jpg'
 import back5 from '../images/back5.jpg'
-import { Link } from 'react-router-dom';
 
 export default function Home() {
     const best = useRef(null);

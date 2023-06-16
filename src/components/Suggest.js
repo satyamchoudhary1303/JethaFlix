@@ -8,7 +8,7 @@ export default function Suggest(props) {
   return (
     <>
       <Link to={episodeUrl} className={containerClassName}>
-        <img id="episodeImg" src={thumbnail} alt="" width="201px" height="120px"/>
+        <img id="episodeImg" src={thumbnail} alt="" width="200.5px" height="120px"/>
         <div id="episodenumber"><i id="watchicon" class="fa-solid fa-play"></i> Episode: {props.num}</div>
       </Link>
     </>

@@ -47,6 +47,15 @@ export default function Navbar(){
                     </div>
                 </li>
 
+                <li id="navlistitems"><button type="button" id="dropdownMenuButton" className="navlink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">New Year</button>
+                    <div id="morelist" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <li id="morelistitems"><Navlink episodetype={'New Year 2010'} episode={'289'} numsuggest={'6'}></Navlink></li>
+                        <li id="morelistitems"><Navlink episodetype={'New Year 2011'} episode={'511'} numsuggest={'3'}></Navlink></li>
+                        <li id="morelistitems"><Navlink episodetype={'New Year 2014'} episode={'1310'} numsuggest={'9'}></Navlink></li>
+                        <li id="morelistitems"><Navlink episodetype={'New Year 2015'} episode={'1573'} numsuggest={'10'}></Navlink></li>
+                    </div>
+                </li>
+
                 <li id="navlistitems"><button type="button" id="dropdownMenuButton" className="navlink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ganeshutsav</button>
                     <div id="morelist" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                         <li id="morelistitems"><Navlink episodetype={'1st GaneshUtsav'} episode={'22'} numsuggest={'9'}></Navlink></li>
@@ -54,15 +63,6 @@ export default function Navbar(){
                         <li id="morelistitems"><Navlink episodetype={'3rd GaneshUtsav'} episode={'444'} numsuggest={'9'}></Navlink></li>
                         <li id="morelistitems"><Navlink episodetype={'4th GaneshUtsav'} episode={'687'} numsuggest={'9'}></Navlink></li>
                         <li id="morelistitems"><Navlink episodetype={'5th GaneshUtsav'} episode={'968'} numsuggest={'6'}></Navlink></li>
-                    </div>
-                </li>
-
-                <li id="navlistitems"><button type="button" id="dropdownMenuButton" className="navlink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">New Year</button>
-                    <div id="morelist" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <li id="morelistitems"><Navlink episodetype={'New Year 2010'} episode={'289'} numsuggest={'6'}></Navlink></li>
-                        <li id="morelistitems"><Navlink episodetype={'New Year 2011'} episode={'511'} numsuggest={'3'}></Navlink></li>
-                        <li id="morelistitems"><Navlink episodetype={'New Year 2014'} episode={'1310'} numsuggest={'9'}></Navlink></li>
-                        <li id="morelistitems"><Navlink episodetype={'New Year 2015'} episode={'1573'} numsuggest={'10'}></Navlink></li>
                     </div>
                 </li>
 

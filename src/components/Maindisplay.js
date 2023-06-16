@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 export default function Maindisplay(props){
-    const episodeUrl = `/${props.episode}/10/${props.episode}`;
+    const episodeUrl = `/${props.episode}`;
     return (
         <>
             <div id="episodehome">Episode: {props.episode}</div>

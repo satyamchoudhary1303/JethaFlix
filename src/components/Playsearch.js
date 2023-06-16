@@ -30,7 +30,7 @@ export default function Playsearch(props) {
     return (
         <div id="playsearch">
             <div id='video'>
-                {video.length>0 ? (<iframe id="episode" src={`https://www.youtube.com/embed/${video}`} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>):(<p>No video found {props.search}</p>)}
+                <iframe id="episode" src={`https://www.youtube.com/embed/${video}?autoplay=1`} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
         </div>
     )
