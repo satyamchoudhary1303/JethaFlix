@@ -58,22 +58,25 @@ export default function Home() {
         <div id="homecontent">
             <h1 ref={best}>Best Picks For You</h1>
             <div id="containerBox">
-                <Video episode={'7'} episodetype={'Bapuji`s arrival'} episodecontent={'Bapuji, new in Mumbai, goes missing now what?'} numsuggest={'2'}></Video>
-                <Video episode={'14'} episodetype={'Jethalal kidnapped'} episodecontent={'Jethala abducted by bunch of thugs. What awaits Jethalal`s fate now?'} numsuggest={'2'}></Video>
-                <Video episode={'55'} episodetype={'Sundar`s Scheme'} episodecontent={'Sundar brings a scheme for Gokuldham members to double their money but promptly disappears'} numsuggest={'7'}></Video>
-                <Video episode={'90'} episodetype={'Thin Elephant'} episodecontent={'Dr. Hathi stucks in tempo after loosing or gaining 30 kg weight?'} numsuggest={'3'}></Video>
-                <Video episode={'96'} episodetype={'Jethalal Fitness'} episodecontent={'Babita advises Jethalal to do a proper diet and exercise along with her in the early morning.'} numsuggest={'5'}></Video>
-                <Video episode={'104'} episodetype={'Police Abduct Bapuji'} episodecontent={'Police abduct Bapuji mistaking him to be a theif in Adarsh Nagar Colony'} numsuggest={'3'}></Video>
-                <Video episode={'122'} episodetype={'Chaggan and Maggan'} episodecontent={'Jethala make a big mistake by giving Chaggan`s money to Maggan, let`s fight Chaggan'} numsuggest={'4'}></Video>
-                <Video episode={'148'} episodetype={'Kitty Party'} episodecontent={'Mahila Mandali plans kitty party, but party results in fight between Daya & Madhavi'} numsuggest={'5'}></Video>
-                <Video episode={'166'} episodetype={'Popatlal coming back'} episodecontent={'New thunder storm in society, Dashing Problematic Patrakar Popatlal from Toofan Express'} numsuggest={'3'}></Video>
-                <Video episode={'203'} episodetype={'London Trip'} episodecontent={'Jethalal got a chance to go to London for free, sponsored by Tony TV'} numsuggest={'7'}></Video>
+                <Video episode={'149'} episodetype={'Kachi Keri ka Sarbat'} episodecontent={'Natu Kaka is upset as Jethalal does not bring Sarbat for him by taking 2 minutes'} numsuggest={'1'}></Video>
+                <Video episode={'283'} episodetype={'Hotel Blue Queen'} episodecontent={'While going to meet Sundar in Blue Queen, a thief catches Jethalal and tries harassing him'} numsuggest={'1'}></Video>
+                <Video episode={'434'} episodetype={'Hum hum hai bakki sab'} episodecontent={'Champaklal scolds Jethalal for dressing like a thief by calling him "Lottery ki ticket bechne wala"'} numsuggest={'1'}></Video>
+                <Video episode={'487'} episodetype={'Rajnikant, Zeenat Aman'} episodecontent={'Jethalal and Daya wears old outfits and seeing them in old attire, Iyer make fun of Jethalal'} numsuggest={'1'}></Video>
+                <Video episode={'499'} episodetype={'Daya Meri Rani'} episodecontent={'Jetha brings Gajra for Daya and while doing romance, Champak spots them'} numsuggest={'1'}></Video>
+                <Video episode={'725'} episodetype={'Gabbar Jetha'} episodecontent={'Jethalal, Bagha and Nattu Kaka, all buys fridge for Babitaji, makes Jetha angry'} numsuggest={'1'}></Video>
+                <Video episode={'733'} episodetype={'Maa ka Gyan'} episodecontent={'While Tappu is forcing Bapuji to wear sunglasses, Jetha sits on Champak`s glasses'} numsuggest={'1'}></Video>
+                <Video episode={'785'} episodetype={'Tapu, mera Gaguda'} episodecontent={'Tapu whistles in Jetha`s ear and a banter starts between Jethalal and Daya menwhile Bhedi`s glasses brokes'} numsuggest={'1'}></Video>
+                <Video episode={'799'} episodetype={'Mirchi Contest'} episodecontent={'As Iyer refused to eat Kacchhi food, Jethalal challenges Iyer to a chilli-eating contest.'} numsuggest={'1'}></Video>
+                <Video episode={'1065'} episodetype={'Golgappa Jetha'} episodecontent={'While  talking with her Maa, Daya continuously roasts Jetha by calling him Golgappa and'} numsuggest={'1'}></Video>
+                <Video episode={'1082'} episodetype={'Nimbu Pani, Pani Nimbe'} episodecontent={'Bhide buy nimbu`s from Navi Mumbai that fall`s in society compound'} numsuggest={'1'}></Video>
             </div>
             <h1>All Time Favorite</h1>
             <div id="containerBox">
-                <Video episode={'115'} episodetype={'Crazy toothpaste'} episodecontent={'Bhide is struggling with the whistle stuck in his throat.'} numsuggest={'3'}></Video>
+                <Video episode={'55'} episodetype={'Sundar`s Scheme'} episodecontent={'Sundar brings a scheme for Gokuldham members to double their money but promptly disappears'} numsuggest={'7'}></Video>
+                <Video episode={'122'} episodetype={'Chaggan and Maggan'} episodecontent={'Jethala make a big mistake by giving Chaggan`s money to Maggan, let`s fight Chaggan'} numsuggest={'4'}></Video>
                 <Video episode={'153'} episodetype={'Robbery in Gokuldham'} episodecontent={'Jethalal has 25 lakhs,but robbery incidents tooks in gokuldham, society on alert'} numsuggest={'11'}></Video>
                 <Video episode={'190'} episodetype={'Babitaji`s Bithday'} episodecontent={'Its Babita ji`s bithday but Iyer Idli has some different plans for Babita`s party'} numsuggest={'6'}></Video>
+                <Video episode={'203'} episodetype={'London Trip'} episodecontent={'Jethalal got a chance to go to London for free, sponsored by Tony TV'} numsuggest={'7'}></Video>
                 <Video episode={'300'} episodetype={'Gada`s to Ahmedabad'} episodecontent={'Gada`s are off to Ahmedabaad for Makarsankranti to meet Jeevdayaben'} numsuggest={4}></Video>
                 <Video episode={'334'} episodetype={'Tempo Stucked'} episodecontent={'Gokuldham`s enterance is blocked due to tempo'} numsuggest={'7'}></Video>
                 <Video episode={'382'} episodetype={'Water Cut'} episodecontent={'Sundar comes in Gokuldham with guests during water cut, Water Tanker called'} numsuggest={'7'}></Video>
@@ -83,6 +86,8 @@ export default function Home() {
             <h1>Must Watch</h1>
             <div id="containerBox">
                 <Video episode={'71'} episodetype={'Tappu ki Shadi'} episodecontent={'Champaklal is in hurry for Tapu`s Marrige going against Jethalal and Gokuldham'} numsuggest={'12'}></Video>
+                <Video episode={'148'} episodetype={'Kitty Party'} episodecontent={'Mahila Mandali plans kitty party, but party results in fight between Daya & Madhavi'} numsuggest={'5'}></Video>
+                <Video episode={'166'} episodetype={'Popatlal coming back'} episodecontent={'New thunder storm in society, Dashing Problematic Patrakar Popatlal from Toofan Express'} numsuggest={'3'}></Video>
                 <Video episode={'224'} episodetype={'Kerry in India'} episodecontent={'Kerry, Jethalal`s assumed sister, come to India to visit Gada`s'} numsuggest={'21'}></Video>
                 <Video episode={'247'} episodetype={'Thief Sunder'} episodecontent={'Jethalal claims that Sunderlal stole Babitaji`s phone, Daya to leave for Ahemdabad'} numsuggest={'10'}></Video>
                 <Video episode={'268'} episodetype={'Missing Gogi'} episodecontent={'Seeing Gogi to be upset from not appearing in TV ad, Tapu decides to hide him'} numsuggest={'5'}></Video>
@@ -91,9 +96,8 @@ export default function Home() {
                 <Video episode={'640'} episodetype={'Robbery at GE'} episodecontent={'Jethalal stucks in his Godowon`s bathroom but robbers have some other plans'} numsuggest={6}></Video>
                 <Video episode={'790'} episodetype={'Off to Kutch'} episodecontent={'Gokuldham visits Kacch but problems are awaiting Gada`s at Kutch'} numsuggest={'10'}></Video>
             </div>
-            <h1>Best Villains</h1>
+            <h1>Comedy with Villains</h1>
             <div id="containerBox">
-                <Video episode={'30'} episodetype={'Gobachari in the house'} episodecontent={'All men of the society meet Gobachari who brainwashes them against their wives'} numsuggest={'5'}></Video>
                 <Video episode={'46'} episodetype={'Sheikh`s offer'} episodecontent={'Jethalal stuck`s in Sheikh`s offer to sacrifise his kidney for Sheikh`s Brother'} numsuggest={'4'}></Video>
                 <Video episode={'66'} episodetype={'Jethalal`s Affair'} episodecontent={'Sweety comes and makes everyone believe that Jethalal has an affair with her.'} numsuggest={'4'}></Video>
                 <Video episode={'140'} episodetype={'Meenakshi Washing Powder'} episodecontent={'Irritated from hearing of Meenakshi, Takark scolded Meenakshi, a Don`s wife'} numsuggest={'3'}></Video>
@@ -104,6 +108,16 @@ export default function Home() {
                 <Video episode={'764'} episodetype={'Mental Champak'} episodecontent={'Posters of Champaklal are all over the places mentioning that Champaklal is mad'} numsuggest={'10'}></Video>
                 <Video episode={'1025'} episodetype={'Gulabo weds Sayeba'} episodecontent={'Gulabo from Mathkunda comes to Society claiming that she`s Jethalal`s first wife'} numsuggest={'32'}></Video>
                 <Video episode={'1123'} episodetype={'Sangram`s Mango'} episodecontent={'Tapu Sena stoles Kacchi Kerry from Sangram Singh`s farmhouse'} numsuggest={'9'}></Video>
+            </div>
+            <h1>Old is Gold</h1>
+            <div id="containerBox">
+                <Video episode={'7'} episodetype={'Bapuji`s arrival'} episodecontent={'Bapuji, new in Mumbai, goes missing now what?'} numsuggest={'2'}></Video>
+                <Video episode={'14'} episodetype={'Jethalal kidnapped'} episodecontent={'Jethala abducted by bunch of thugs. What awaits Jethalal`s fate now?'} numsuggest={'2'}></Video>
+                <Video episode={'30'} episodetype={'Gobachari in the house'} episodecontent={'All men of the society meet Gobachari who brainwashes them against their wives'} numsuggest={'5'}></Video>
+                <Video episode={'90'} episodetype={'Dr. Hathi Stuked'} episodecontent={'Dr. Hathi stucks in tempo after loosing or gaining 30 kg weight?'} numsuggest={'3'}></Video>
+                <Video episode={'96'} episodetype={'Jethalal Fitness'} episodecontent={'Babita advises Jethalal to do a proper diet and exercise along with her in the early morning.'} numsuggest={'5'}></Video>
+                <Video episode={'104'} episodetype={'Police Abduct Bapuji'} episodecontent={'Police abduct Bapuji mistaking him to be a theif in Adarsh Nagar Colony'} numsuggest={'3'}></Video>
+                <Video episode={'115'} episodetype={'Crazy toothpaste'} episodecontent={'Bhide is struggling with the whistle stuck in his throat.'} numsuggest={'3'}></Video>
             </div>
             <h1>Gokuldham Premier League</h1>
             <div id="containerBox">

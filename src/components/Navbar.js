@@ -8,6 +8,7 @@ export default function Navbar(){
     const handleKeyPress = (event) => {
         if (event.key === 'Enter') {
             window.location.href = `/${searchQuery}`;
+            setSearchQuery('');
         }
     };
 
