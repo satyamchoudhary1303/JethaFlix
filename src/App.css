@@ -502,6 +502,9 @@ body{
         position: static;
         width: 700px;
     }
+    #playsearch #video{
+        width: 700px;
+    }
     #play #episode{
         width: 700px;
         height: 393.75px;
@@ -512,8 +515,9 @@ body{
         margin: 0px;
         overflow-y: hidden;
         padding: 10px;
-        border: rgba(255, 255, 255, 0.1) solid 1px;
+        border-top: rgba(255, 255, 255, 0.1) solid 1px;
         display: flex;
         flex-direction: row;
     }
+
 }
