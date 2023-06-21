@@ -167,7 +167,7 @@ export default function Home() {
                 <Video episode={'1758'} episodetype={'Society Renewation'} episodecontent={'This time new tension with renewation but fun also. Let`s see how they get their houses'} numsuggest={51}></Video>
             </div>
             <div id="footer">
-                <div>Copyright © 2023 JethaFlix.com | All Rights Reserved</div>
+                <div>Copyright © 2023 jethaflix.netlify.app | All Rights Reserved</div>
                 <div>
                     <a href='https://github.com/satyamchoudhary1303' target='blank'><i class="fa-brands fa-github"></i></a>
                     <a href='https://www.linkedin.com/in/satyam-choudhary-37b669210/' target='blank'><i class="fa-brands fa-linkedin"></i></a>
