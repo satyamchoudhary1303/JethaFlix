@@ -1,4 +1,5 @@
 import './App.css';
+import React, { useEffect } from 'react';
 import {
   BrowserRouter as Router,
   Routes,
@@ -27,11 +28,23 @@ function App(){
 
 function Playonclick() {
   const { numfirst, numsuggest , num } = useParams() || {};
+  useEffect(() => {
+    document.title = `JethaFlix | Episode-${num}`;
+  }, [num]);
   return <Play numfirst={numfirst} numsuggest={numsuggest} num = {num}/>;
 }
 
 function Playonsearch() {
   const { search } = useParams() || {};
+  useEffect(() => {
+    if (!isNaN(search)) {
+      document.title = `JethaFlix | Episode-${search}`;
+    } else if (typeof search === 'string' && search.length > 0) {
+      const firstChar = search.charAt(0).toUpperCase();
+      const remainingChars = search.slice(1);
+      document.title = `JethaFlix | ${firstChar}${remainingChars}`;
+    }
+  }, [search]);  
   return <Playsearch search = {search}/>;
 }
 
