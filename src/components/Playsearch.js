@@ -9,7 +9,7 @@ export default function Playsearch(props) {
                 const response = await youtubeApi.get("/search",{
                     params:{
                         q: "Tarak Mehta ka Ulta Chasma " + `${props.search}`,
-                        maxResults:'01',
+                        key: props.apikey,
                     }
                 });      
                 if (response.data.items.length > 0) {
@@ -25,7 +25,7 @@ export default function Playsearch(props) {
             }
         }
     searchYouTube();
-    },[props.search]);
+    },[props.search,props.apikey]);
 
     return (
         <div id="playsearch">

@@ -16,6 +16,7 @@ export default function Home() {
     const [currentIndex, setCurrentIndex] = useState(0);
 
     useEffect(() => {
+        document.title = 'JethaFlix';
         const interval = setInterval(() => {
             setCurrentIndex((prevIndex) => (prevIndex === divisions.length - 1 ? 0 : prevIndex + 1));
         }, 4000);

@@ -3,7 +3,7 @@ import Suggest from './Suggest';
 import youtubeApi from './youtube';
 
 export default function Play(props) {
-    const {numfirst,numsuggest,num} = props; 
+    const {numfirst,numsuggest,num,apikey} = props; 
     const numfir = parseInt(numfirst,10);
     const numsug = parseInt(numsuggest,10);
     const numepi = parseInt(num,10);
@@ -15,7 +15,7 @@ export default function Play(props) {
               const response = await youtubeApi.get("/search",{
                   params:{
                       q: "Tarak Mehta ka Ulta Chasma " + `${numepi}`,
-                      maxResults:'01',
+                      key: apikey,
                   }
               });      
               if (response.data.items.length > 0) {
@@ -31,7 +31,7 @@ export default function Play(props) {
           }
       }
   searchYouTube();
-  },[numepi]);
+  },[numepi,apikey]);
 
   return (
     <div id="play">

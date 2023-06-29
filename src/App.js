@@ -12,29 +12,31 @@ import Play from './components/Play';
 import Playsearch from './components/Playsearch';
 
 function App(){
+  const apikey = process.env.REACT_APP_YT_API
+
     return (
         <>
         <Router>
         <Navbar></Navbar>
         <Routes>
             <Route path="/" element={<Home/>}/>
-            <Route exact path='/:numfirst/:numsuggest/:num' element={<Playonclick/>}/>
-            <Route exaxt path='/:search' element={<Playonsearch/>}/>
+            <Route exact path='/:numfirst/:numsuggest/:num' element={<Playonclick apikey={apikey}/>}/>
+            <Route exaxt path='/:search' element={<Playonsearch apikey={apikey}/>}/>
         </Routes>
         </Router>
         </>
     );
 }
 
-function Playonclick() {
+function Playonclick({apikey}) {
   const { numfirst, numsuggest , num } = useParams() || {};
   useEffect(() => {
     document.title = `JethaFlix | Episode - ${num}`;
   }, [num]);
-  return <Play numfirst={numfirst} numsuggest={numsuggest} num = {num}/>;
+  return <Play numfirst={numfirst} numsuggest={numsuggest} num = {num} apikey={apikey}/>;
 }
 
-function Playonsearch() {
+function Playonsearch({apikey}) {
   const { search } = useParams() || {};
   useEffect(() => {
     if (!isNaN(search)) {
@@ -45,7 +47,7 @@ function Playonsearch() {
       document.title = `JethaFlix | ${firstChar}${remainingChars}`;
     }
   }, [search]);  
-  return <Playsearch search = {search}/>;
+  return <Playsearch search = {search} apikey={apikey}/>;
 }
 
 export default App;
